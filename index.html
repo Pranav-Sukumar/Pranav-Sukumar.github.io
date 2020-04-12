@@ -14,7 +14,7 @@
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 </head>
 <body class="is-preload">
-    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333">
+    <ul style="list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;">
         <li style="border-right: 1px solid white; float: left;display: block; color: white; text-align: center; padding: 20px 10px; text-decoration: none"><a href="#home">Home</a></li>
         <li style="border-right: 1px solid white; float: left;display: block; color: white; text-align: center; padding: 20px 10px; text-decoration: none"><a href="#about">About Me</a></li>
 
@@ -39,12 +39,15 @@
     <section id="three" class="main style1 special">
         <div class="container" id="about">
             <div class="row gtr-150">
-                <div class="col-6 col-12-medium" style="width: 300px">
-                    <img src="images/headshot.png" width="271.040" height=405.900" align="left">
+                <div class="col-6 col-12-medium" style="max-width:296.800px; max-height:445.200px;">
+                    <span class="image fit"><img src="images/headshot.png"> </span>
+                        
                 </div>
                 <div class="col-6 col-12-medium">
-                    <h2><b>About Me</b></h2>
-                    <p  style="text-align: left">
+                    <header class="major" id="projects">
+                        <h2><b>About Me</b></h2>
+                    </header>
+                    <p style="text-align: left">
                         Hi! I am a freshman at UC Berkeley student studying Electrical Engineering & Computer Sciences from Seattle, Washington.
                         I have a wide range of skills and interest areas, concentrated in software and hardware design.
                         I'm currently fascinated by Machine Learning and Big Data, and their applications to cutting edge technology.
@@ -66,10 +69,10 @@
 </section>
 
 
-    <section id="three" class="main style1 special">
+    <section id="three" class="main style1 special"  style="padding-top:0px">
         <div class="container">
             <header class="major" id="projects">
-                <h2>Projects</h2>
+                <h2><b>Projects</b></h2>
             </header>
             <div class="row gtr-150">
                 <div class="col-4 col-12-medium">
@@ -116,7 +119,7 @@
         <div class="container">
             <center>
                 <header class="major" id="work">
-                    <h2>Work Experience</h2>
+                    <h2><b>Work Experience</b></h2>
                 </header>
             </center>
 
