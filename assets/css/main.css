@@ -129,6 +129,14 @@ input, select, textarea {
 		font-style: italic;
 	}
 
+    li {
+    border-right: 1px solid #bbb;
+    }
+
+    li:last-child {
+        border-right: none;
+    }
+
 	p {
 		margin: 0 0 2em 0;
 	}
@@ -3030,7 +3038,7 @@ input, select, textarea {
 			#header .actions:after {
 				background: #ffffff;
 				content: '';
-				height: 100vh;
+				height: 200vh;
 				left: 50%;
 				position: absolute;
 				top: 100%;
